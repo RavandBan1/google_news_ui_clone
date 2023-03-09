@@ -50,7 +50,9 @@ class NewsstandPage extends StatelessWidget {
 
 
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////Entertainment Section ///////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 class Entertainment extends StatelessWidget {
   const Entertainment({super.key});
@@ -65,16 +67,39 @@ class Entertainment extends StatelessWidget {
           Text("Entertainment",
           style: TextStyle( fontWeight: FontWeight.bold),
           ),
+          ///////////////////////////////////////////////////////////
+       
+          Container(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              physics: BouncingScrollPhysics(),
+              padding: EdgeInsets.all(5),
+
+            ),
+
+          ),
+
+          ///////////////////////////////////////////////////////////
+          ///////////// More Entertainment TextButton ///////////////
+          ///////////////////////////////////////////////////////////
+          Container(
+            child:Center(
+              child: TextButton(onPressed: (){},
+               child: Text("More Entertainment"),
+               ),
+               ),
+
+          ),
           
         ],
       ),
     );
   }
 }
-/////////////////////////////////////////////////////////////////////////////////////////////////////// 
-
-
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////Food And Drink section///////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
 class FoodAndDrink extends StatelessWidget {
   const FoodAndDrink({super.key});
 
@@ -88,15 +113,39 @@ class FoodAndDrink extends StatelessWidget {
           Text("Food And Drink",
           style: TextStyle( fontWeight: FontWeight.bold),
           ),
+          ///////////////////////////////////////////////////////////
+       
+          Container(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              physics: BouncingScrollPhysics(),
+              padding: EdgeInsets.all(5),
+              
+            ),
+
+          ),
+
+          ///////////////////////////////////////////////////////////
+          /////////////// More Food And Drink TextButton ////////////
+          ///////////////////////////////////////////////////////////
+          Container(
+            child:Center(
+              child: TextButton(onPressed: (){},
+               child: Text("More Food And Drink"),
+               ),
+               ),
+
+          ),
 
         ]
         ),
     );
   }
 }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
+/////////////////////////////////////Health And Fitness section////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 class HealthAndFitness extends StatelessWidget {
   const HealthAndFitness({super.key});
@@ -109,8 +158,31 @@ class HealthAndFitness extends StatelessWidget {
       child: Column(
 
         children: [
-          Text("Health And Drink",
+          Text("Health And Fitness",
           style: TextStyle( fontWeight: FontWeight.bold),
+          ),
+          ///////////////////////////////////////////////////////////
+       
+          Container(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              physics: BouncingScrollPhysics(),
+              padding: EdgeInsets.all(5),
+              
+            ),
+
+          ),
+
+          ///////////////////////////////////////////////////////////
+          ///////////// More Health And Fitness TextButton //////////
+          ///////////////////////////////////////////////////////////
+          Container(
+            child:Center(
+              child: TextButton(onPressed: (){},
+               child: Text("More Health And Fitness"),
+               ),
+               ),
+
           ),
 
         ],
@@ -118,10 +190,10 @@ class HealthAndFitness extends StatelessWidget {
     );
   }
 }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
+////////////////////////////////////// Home And Garden Section ////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 class HomeAndGarden extends StatelessWidget {
   const HomeAndGarden({super.key});
 
@@ -135,16 +207,39 @@ class HomeAndGarden extends StatelessWidget {
           Text("Home And Garden",
           style: TextStyle( fontWeight: FontWeight.bold),
           ),
+
+          ///////////////////////////////////////////////////////////
+          Container(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              physics: BouncingScrollPhysics(),
+              padding: EdgeInsets.all(5),
+              
+            ),
+
+          ),
+
+          ///////////////////////////////////////////////////////////
+          //////////// More Home And Garden TextButton //////////////
+          ///////////////////////////////////////////////////////////
+          Container(
+            child:Center(
+              child: TextButton(onPressed: (){},
+               child: Text("More Home And Garden"),
+               ),
+               ),
+
+          ),
         ],
 
       ),
     );
   }
 }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
+///////////////////////////////////// News And Politics Section ///////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 class NewsAndPolitics extends StatelessWidget {
   const NewsAndPolitics({super.key});
 
@@ -158,6 +253,29 @@ class NewsAndPolitics extends StatelessWidget {
           Text("News And Politics",
           style: TextStyle( fontWeight: FontWeight.bold),
           ),
+          ///////////////////////////////////////////////////////////
+       
+          Container(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              physics: BouncingScrollPhysics(),
+              padding: EdgeInsets.all(5),
+              
+            ),
+
+          ),
+
+          ///////////////////////////////////////////////////////////
+          //////////// More News And Politics TextButton ////////////
+          ///////////////////////////////////////////////////////////
+          Container(
+            child:Center(
+              child: TextButton(onPressed: (){},
+               child: Text("More News And Politics"),
+               ),
+               ),
+
+          ),
         ],
 
       ),
@@ -167,10 +285,10 @@ class NewsAndPolitics extends StatelessWidget {
     );
   }
 }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
+///////////////////////////////// Science And Technology Section //////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 class ScienceAndTechnology extends StatelessWidget {
   const ScienceAndTechnology({super.key});
@@ -186,6 +304,29 @@ class ScienceAndTechnology extends StatelessWidget {
           Text("Science And Technology",
           style: TextStyle( fontWeight: FontWeight.bold),
           ),
+          ///////////////////////////////////////////////////////////
+       
+          Container(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              physics: BouncingScrollPhysics(),
+              padding: EdgeInsets.all(5),
+              
+            ),
+
+          ),
+
+          ///////////////////////////////////////////////////////////
+          ///////// More Science And Technology TextButton //////////
+          ///////////////////////////////////////////////////////////
+          Container(
+            child:Center(
+              child: TextButton(onPressed: (){},
+               child: Text("More Science And Technology"),
+               ),
+               ),
+
+          ),
         ],
 
       ),
@@ -193,10 +334,10 @@ class ScienceAndTechnology extends StatelessWidget {
     );
   }
 }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
+///////////////////////////////////// Special Interest Section ////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 class SpecialInterest extends StatelessWidget {
   const SpecialInterest({super.key});
@@ -211,6 +352,29 @@ class SpecialInterest extends StatelessWidget {
           Text("Special Interest",
           style: TextStyle( fontWeight: FontWeight.bold),
           ),
+          ///////////////////////////////////////////////////////////
+       
+          Container(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              physics: BouncingScrollPhysics(),
+              padding: EdgeInsets.all(5),
+              
+            ),
+
+          ),
+
+          ///////////////////////////////////////////////////////////
+          /////////// More Special Interest TextButton //////////////
+          ///////////////////////////////////////////////////////////
+          Container(
+            child:Center(
+              child: TextButton(onPressed: (){},
+               child: Text("More Special Interest"),
+               ),
+               ),
+
+          ),
         ],
 
       ),
@@ -219,10 +383,10 @@ class SpecialInterest extends StatelessWidget {
     );
   }
 }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
+///////////////////////////////////////// Sports Section///////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 class Sports extends StatelessWidget {
   const Sports({super.key});
@@ -236,6 +400,29 @@ class Sports extends StatelessWidget {
         children: [
           Text("Sports",
           style: TextStyle( fontWeight: FontWeight.bold),
+          ),
+          ///////////////////////////////////////////////////////////
+       
+          Container(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              physics: BouncingScrollPhysics(),
+              padding: EdgeInsets.all(5),
+              
+            ),
+
+          ),
+
+          ///////////////////////////////////////////////////////////
+          ///////////////// More Sports TextButton //////////////////
+          ///////////////////////////////////////////////////////////
+          Container(
+            child:Center(
+              child: TextButton(onPressed: (){},
+               child: Text("More Sports"),
+               ),
+               ),
+
           ),
 
 
