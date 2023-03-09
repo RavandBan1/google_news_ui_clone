@@ -53,7 +53,7 @@ class NewsstandPage extends StatelessWidget {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////Entertainment Section ///////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//1
 class Entertainment extends StatelessWidget {
   const Entertainment({super.key});
 
@@ -70,13 +70,13 @@ class Entertainment extends StatelessWidget {
           ///////////////////////////////////////////////////////////
        
           Container(
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              physics: BouncingScrollPhysics(),
-              padding: EdgeInsets.all(5),
-
-            ),
-
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container();
+                
+              }, 
+              ),
           ),
 
           ///////////////////////////////////////////////////////////
@@ -99,7 +99,7 @@ class Entertainment extends StatelessWidget {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////Food And Drink section///////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
- 
+//2
 class FoodAndDrink extends StatelessWidget {
   const FoodAndDrink({super.key});
 
@@ -114,17 +114,17 @@ class FoodAndDrink extends StatelessWidget {
           style: TextStyle( fontWeight: FontWeight.bold),
           ),
           ///////////////////////////////////////////////////////////
-       
+          
           Container(
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              physics: BouncingScrollPhysics(),
-              padding: EdgeInsets.all(5),
-              
-            ),
-
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container();
+                
+              }, 
+              ),
           ),
-
+      
           ///////////////////////////////////////////////////////////
           /////////////// More Food And Drink TextButton ////////////
           ///////////////////////////////////////////////////////////
@@ -146,7 +146,7 @@ class FoodAndDrink extends StatelessWidget {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////Health And Fitness section////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//3
 class HealthAndFitness extends StatelessWidget {
   const HealthAndFitness({super.key});
 
@@ -162,17 +162,17 @@ class HealthAndFitness extends StatelessWidget {
           style: TextStyle( fontWeight: FontWeight.bold),
           ),
           ///////////////////////////////////////////////////////////
-       
+          
           Container(
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              physics: BouncingScrollPhysics(),
-              padding: EdgeInsets.all(5),
-              
-            ),
-
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container();
+                
+              }, 
+              ),
           ),
-
+       
           ///////////////////////////////////////////////////////////
           ///////////// More Health And Fitness TextButton //////////
           ///////////////////////////////////////////////////////////
@@ -194,6 +194,7 @@ class HealthAndFitness extends StatelessWidget {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////// Home And Garden Section ////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
+//4
 class HomeAndGarden extends StatelessWidget {
   const HomeAndGarden({super.key});
 
@@ -210,13 +211,13 @@ class HomeAndGarden extends StatelessWidget {
 
           ///////////////////////////////////////////////////////////
           Container(
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              physics: BouncingScrollPhysics(),
-              padding: EdgeInsets.all(5),
-              
-            ),
-
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container();
+                
+              }, 
+              ),
           ),
 
           ///////////////////////////////////////////////////////////
@@ -240,6 +241,7 @@ class HomeAndGarden extends StatelessWidget {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////// News And Politics Section ///////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
+//5
 class NewsAndPolitics extends StatelessWidget {
   const NewsAndPolitics({super.key});
 
@@ -256,13 +258,13 @@ class NewsAndPolitics extends StatelessWidget {
           ///////////////////////////////////////////////////////////
        
           Container(
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              physics: BouncingScrollPhysics(),
-              padding: EdgeInsets.all(5),
-              
-            ),
-
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container();
+                
+              }, 
+              ),
           ),
 
           ///////////////////////////////////////////////////////////
@@ -289,7 +291,7 @@ class NewsAndPolitics extends StatelessWidget {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////// Science And Technology Section //////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//6
 class ScienceAndTechnology extends StatelessWidget {
   const ScienceAndTechnology({super.key});
 
@@ -307,13 +309,13 @@ class ScienceAndTechnology extends StatelessWidget {
           ///////////////////////////////////////////////////////////
        
           Container(
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              physics: BouncingScrollPhysics(),
-              padding: EdgeInsets.all(5),
-              
-            ),
-
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container();
+                
+              }, 
+              ),
           ),
 
           ///////////////////////////////////////////////////////////
@@ -338,7 +340,7 @@ class ScienceAndTechnology extends StatelessWidget {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////// Special Interest Section ////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//7
 class SpecialInterest extends StatelessWidget {
   const SpecialInterest({super.key});
 
@@ -354,14 +356,14 @@ class SpecialInterest extends StatelessWidget {
           ),
           ///////////////////////////////////////////////////////////
        
-          Container(
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              physics: BouncingScrollPhysics(),
-              padding: EdgeInsets.all(5),
-              
-            ),
-
+         Container(
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container();
+                
+              }, 
+              ),
           ),
 
           ///////////////////////////////////////////////////////////
@@ -387,7 +389,7 @@ class SpecialInterest extends StatelessWidget {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////// Sports Section///////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//8
 class Sports extends StatelessWidget {
   const Sports({super.key});
 
@@ -404,13 +406,13 @@ class Sports extends StatelessWidget {
           ///////////////////////////////////////////////////////////
        
           Container(
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              physics: BouncingScrollPhysics(),
-              padding: EdgeInsets.all(5),
-              
-            ),
-
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container();
+                
+              }, 
+              ),
           ),
 
           ///////////////////////////////////////////////////////////
