@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:google_news_ui_clone/Dlin/s4.dart';
 import 'package:google_news_ui_clone/Ravand/main_screen.dart';
+import 'package:google_news_ui_clone/amed/s3.dart';
 import 'package:google_news_ui_clone/nour/Newsstand.dart';
 
 class bottomNav extends StatefulWidget {
